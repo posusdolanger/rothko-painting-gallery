@@ -1,0 +1,124 @@
+/* Rothko Colors
+    #F96312  
+    #CE3803
+    #A33002 
+    #201128
+    #000000
+    #EDEDED
+    #F3E3E2
+*/
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #EDEDED;
+
+}
+
+/* HEADER */
+.header {
+    text-align: center;
+    background-color: #201128;
+    color: #EDEDED;
+    padding: 32px;
+    border-bottom: 4px solid #CE3803; 
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+.generated {
+  font-style: italic;
+}
+
+.ai {
+    text-transform: uppercase;
+}
+
+.ai a {
+    color: #EDEDED;
+    transition: color 0.2s;
+}
+
+.ai a:hover {
+    color: #F96312 ;
+}
+
+/* GALLERY */
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    margin: 25px 0;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 350px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 2px 2px 8px #201128;
+}
+
+/* pseudo selector */
+.gallery::after {
+    content: "";
+    width: 350px;
+}
+
+/* BUTTON TO TOP */
+.box-btn {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: right;
+    padding: 12px;
+}
+
+.link-bt {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    
+}
+
+.bt-top-icon {
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+    background-color: #201128;
+    color: #EDEDED;
+    box-shadow: 1px 1px 3px  #201128;
+
+    transition-duration: 0.2s;
+}
+
+.bt-top-icon:hover {
+    background-color: #EDEDED;
+    color: #201128;
+    border-radius: 50%;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #201128;
+    color: #EDEDED;
+    padding: 16px;
+}
+
