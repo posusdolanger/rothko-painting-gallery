@@ -1,12 +1,11 @@
-/* Rothko Colors
-    #F96312  
-    #CE3803
-    #A33002 
-    #201128
-    #000000
-    #EDEDED
-    #F3E3E2
-*/
+/*Color palette
+ #192231
+ #404a42
+ #c0b283
+ #eddbcd
+ #EDEDED
+ */
+
 
   * {
     margin: 0;
@@ -23,10 +22,10 @@ body {
 /* HEADER */
 .header {
     text-align: center;
-    background-color: #201128;
+    background-color: #192231;
     color: #EDEDED;
     padding: 32px;
-    border-bottom: 4px solid #CE3803; 
+    border-bottom: 4px solid #C0B283; 
 }
 
 .title {
@@ -99,16 +98,16 @@ body {
     height: 40px;
     border-radius: 50%;
 
-    background-color: #201128;
+    background-color: #192231;
     color: #EDEDED;
-    box-shadow: 1px 1px 3px  #201128;
+    box-shadow: 1px 1px 3px  #192231;
 
     transition-duration: 0.2s;
 }
 
 .bt-top-icon:hover {
     background-color: #EDEDED;
-    color: #201128;
+    color: #192231;
     border-radius: 50%;
 }
 
@@ -117,7 +116,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #201128;
+    background-color: #192231;
     color: #EDEDED;
     padding: 16px;
 }
